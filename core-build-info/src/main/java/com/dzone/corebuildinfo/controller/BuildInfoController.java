@@ -1,7 +1,7 @@
-package com.dzone.springapibuildinfo.controller;
+package com.dzone.corebuildinfo.controller;
 
-import com.dzone.springapibuildinfo.model.BuildInfoResponse;
-import com.dzone.springapibuildinfo.service.BuildInfoService;
+import com.dzone.corebuildinfo.model.BuildInfoResponse;
+import com.dzone.corebuildinfo.service.BuildInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,3 +19,4 @@ public class BuildInfoController {
         return this.buildInfoService.getBuildInfo();
     }
 }
+

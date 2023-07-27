@@ -1,6 +1,6 @@
-package com.dzone.springapibuildinfo.service;
+package com.dzone.corebuildinfo.service;
 
-import com.dzone.springapibuildinfo.model.BuildInfoResponse;
+import com.dzone.corebuildinfo.model.BuildInfoResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.info.BuildProperties;
 import org.springframework.stereotype.Service;

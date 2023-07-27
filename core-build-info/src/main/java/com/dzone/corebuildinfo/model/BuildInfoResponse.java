@@ -1,4 +1,4 @@
-package com.dzone.springapibuildinfo.model;
+package com.dzone.corebuildinfo.model;
 
 public class BuildInfoResponse {
     private String name;
